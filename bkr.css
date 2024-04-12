@@ -8,10 +8,11 @@
     text-align: left;
     font-weight: bold;
     font-size: 20px;
+    width:100%;
 }
 
 th,td {
-    padding-left: 20px;
+    padding-left: 10px;
     padding-bottom: 10px;
 }
 
