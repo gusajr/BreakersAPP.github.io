@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Breakers</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="bkr.css">
+  <link rel="stylesheet" href="progressBar.css">
+  <link rel="icon" href="./img/bearWhite.png">
+</head>
+<body>
+  
+
+<div class="p-5 vh-100 vw-100 body-bkr">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3 class="">{{ Gustavo }}, te mostramos los movimientos que has tenido este mes:</p> 
+      </div>
+    <div class="row p-5">
+        <table class="col-sm-12 table-bkr">
+          <tbody>
+            <tr>
+              <th scope="row">Saldo inicial</th>
+              <td class="">${{ 500,000.00 }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Abonos</th>
+              <td>${{ 30,000.00 }}</td>
+            </tr>
+            <tr>
+              <th scope="row">Retiros</th>
+              <td class="red-bkr">${{ 600.00 }}</td>
+            </tr>
+            <tr class="total-bkr">
+              <th scope="row">Saldo actual al <br> {{ 2024/04/12 }}</th>
+              <td>${{ 529,400.00 }}</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+    <div class="row p-2">
+      <div class="text-center">
+        <a href="summary.html">
+          <button type="button" class="btn btn-success rounded-pill btn-lg button-bkr">Regresar</button>
+        </a>
+      </div>
+    </div>
+    <div class="row p-2">
+      <div class="text-center">
+        <a href="index.html">
+          <button type="button" class="btn btn-success rounded-pill btn-lg button-bkr">Salir</button>
+        </a>
+      </div>
+    </div>
+    <div class="row p-5">
+      <div class="col-sm-12 text-center">
+        <img src="./img/bkrs.png" width="100px" height="100px"/>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

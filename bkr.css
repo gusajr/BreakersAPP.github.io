@@ -1,0 +1,84 @@
+.text-bkr {
+    color: #52868c;
+}
+
+.table-bkr {
+    background-color: #F4F3F3;
+    border: 5px solid #688782;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+th,td {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.red-bkr {
+    color: red;
+}
+
+.total-bkr {
+    background-color: #688782;
+    color: #FFFFFF;
+}
+
+.body-bkr {
+    background-color: #F4F3F3;
+}
+
+.button-bkr {
+    background-color: #144142;
+    border-color: #144142;
+}
+
+.input-bkr {
+    background-color: #688782;
+    border-color: #688782;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 10px; 
+    text-align: center;
+}
+
+.input-bkr::placeholder {
+    background-color: #688782;
+    border-color: #688782;
+    color: #FFFFFF;
+}
+
+.input-bkr:focus{
+    border-color: #688782;
+    color: #FFFFFF;  
+    box-shadow: none; 
+    -webkit-box-shadow: none;
+    background-color: #688782;
+} 
+
+.form-control:focus{
+    border-color: #688782;
+    color: #FFFFFF;  
+    box-shadow: none; 
+    -webkit-box-shadow: none;
+    background-color: #688782;
+} 
+
+.background-bkr{
+    background-image: url("./img/bearWhite.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+  
+.modal-bkr {
+    background-color: #144142;
+    border-color: #144142;
+    color: #FFFFFF;  
+}
+
+.close-button-bkr {
+    color: #FFFFFF;
+    background-color: #688782; 
+    opacity: 1;
+}
