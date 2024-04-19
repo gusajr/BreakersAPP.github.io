@@ -12,39 +12,42 @@
 </head>
 <body>
 <div class="text-center vh-100 vw-100 background-bkr">
-    <div class="d-flex flex-column bd-highlight mb-3">
-      <div class="p-5 bd-highlight">
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1 class="p-5"></h1>
         <h1 class="p-5">¡Nos alegra tu visita!</h1> 
       </div>
-      <div class="p-3 bd-highlight">
-        <h3>Clave de acceso:</h3>
+      <div class="col-sm-12">
+        <h3 class="p-5">Clave de acceso:</h3>
       </div>
-      <div class="d-grid gap-1 col-6 mx-auto fluid">
+      <div class="d-grid gap-1 col-8 mx-auto fluid">
         <div class="bd-highlight">
           <input type="text" class="input-bkr form-control" placeholder="Ingresa tu clave aquí" aria-label="Ingresa tu clave aquí" aria-describedby="button-addon2">
         </div>
       </div>
-      <div class="p-5 bd-highlight">
+      <div class="p-5 col-sm-12">
         <button type="button" class="btn btn-success rounded-pill btn-lg button-bkr"  data-bs-toggle="modal" data-bs-target="#loginError">Ingresar</button>
       </div>
     </div>
 </div>
 
 <div class="modal" id="loginError">
-  <div class="modal-dialog modal-bkr">
+  <div class="modal-dialog">
     <div class="modal-content modal-bkr">
       <div class="modal-header">
         <h4 class="modal-title">Clave incorrecta</h4>
-        <button type="button" class="btn-close close" data-bs-dismiss="modal"></button>
+        <!--button type="button" class="btn-close close" data-bs-dismiss="modal"></button-->
+        <a  href="summary.html" class="btn-close close"></a>
       </div>
       <div class="modal-body">
         Lo sentimos, tu clave es incorrecta, por favor inténtalo de nuevo.
       </div>
-      <div class="modal-footer">
+      <!--div class="modal-footer">
         <a href="summary.html">
           <button type="button" class="btn btn-success close-button-bkr" data-bs-dismiss="modal">Cerrar</button>
         </a>
-      </div>
+      </div!-->
 
     </div>
   </div>

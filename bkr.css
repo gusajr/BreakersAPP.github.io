@@ -79,7 +79,14 @@ body {
 .modal-bkr {
     background-color: #144142;
     border-color: #144142;
-    color: #FFFFFF;  
+    color: #FFFFFF;
+}
+
+.modal-dialog {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .close-button-bkr {
